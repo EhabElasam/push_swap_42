@@ -12,6 +12,12 @@ To use this project, clone the repository and compile the files using Make.
     
     make
 
+# Features
+
+Efficient Sorting Algorithm: Implements an efficient algorithm to sort data in stack a while stack b is used as auxiliary storage.
+Limited Instructions: Utilizes a specific set of operations to manipulate stack data, including swap, push, rotate, and reverse rotate.
+Performance Measurement: Includes a benchmarking setup to measure the efficiency of the sorting process.
+
 # Usage
 
 After installation, you can run the program as follows:
