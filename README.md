@@ -14,9 +14,18 @@ To use this project, clone the repository and compile the files using Make.
 
 # Features
 
-Efficient Sorting Algorithm: Implements an efficient algorithm to sort data in stack a while stack b is used as auxiliary storage.
-Limited Instructions: Utilizes a specific set of operations to manipulate stack data, including swap, push, rotate, and reverse rotate.
-Performance Measurement: Includes a benchmarking setup to measure the efficiency of the sorting process.
+main(): Initializes and starts the sorting process, processes input arguments, initializes data structures, and outputs the sequence of operations.
+validate_input(): Validates that all inputs are integers and checks for duplicates.
+init_stacks(): Initializes the stacks with input values.
+sort_stack(): Contains the logic to choose and execute the sorting algorithm using stack operations.
+Stack Operations:
+    Swap: swap_a(), swap_b(), swap_both()
+    Push: push_a(), push_b()
+    Rotate: rotate_a(), rotate_b(), rotate_both()
+    Reverse Rotate: reverse_rotate_a(), reverse_rotate_b(), reverse_rotate_both()
+print_operations(): Outputs the operations performed to sort the stack.
+cleanup(): Frees up resources and allocated memory to prevent memory leaks.
+Error Handling: handle_error() manages and reports errors during program execution.
 
 # Usage
 
